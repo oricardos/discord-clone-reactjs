@@ -25,7 +25,7 @@ export const Container = styled.div`
         color: var(--senary);
     }
 
-    &.hover, 
+    &:hover, 
     &.active {
         background-color: var(--quinary);
 
@@ -33,14 +33,37 @@ export const Container = styled.div`
             color: var(--white)
         }
     }
-`
-
-export const HashtagIcon = styled.div`
-`
-
-export const InviteIcon = styled.div`
 
 `
 
-export const SettingsIcons = styled.div`
+export const HashtagIcon = styled( Hashtag )`
+    height: 20px;
+    width: 20px;
+    color: var(--symbol);
+`
+
+export const InviteIcon = styled( PersonAdd )`
+    height: 16px;
+    width: 16px;
+    color: var(--symbol);
+    cursor: pointer;
+    transition: color .2s;
+
+    &:hover {
+        color: var(--white)
+    }
+`
+    
+    export const SettingsIcons = styled( Settings )`
+    height: 16px;
+    width: 16px;
+    color: var(--symbol);
+    cursor: pointer;
+    transition: color .2s;
+    margin-left: 5px;
+
+    &:hover {
+        color: var(--white)
+    }
+
 `
