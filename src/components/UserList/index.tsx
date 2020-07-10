@@ -27,6 +27,21 @@ const UserList: React.FC = () => {
             
             <Role>Offline - 15</Role>
             <UserRow nickname = "Artur Fernandes" isFriend/>
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
+            <UserRow nickname = "Fulano de Tal" />
         </Container>
     )
 }
